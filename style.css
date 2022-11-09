@@ -1,0 +1,82 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background-image: url(road.jpg);
+}
+.container{
+text-align: center;
+margin-top: 150px;
+font-size: 25px;
+
+
+
+
+}
+
+.title{
+    text-align: center;
+    font-size: 50px;
+    color: #ffff;
+    
+
+}
+#inputText{
+    width: 300px;
+    border:1px solid orange;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px grey;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+#addToDo{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 5px;
+    vertical-align: middle;
+    outline: none;
+    cursor: pointer;
+    background-color: green;
+    color: #ffff;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+#addToDo:active{
+    background-color: rgb(50, 50, 226)
+
+
+}
+#clearToDo:active{
+    background-color: rgb(50, 50, 226)
+}
+
+
+
+
+
+#clearToDo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: red;
+    color: #ffff;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+.to-dos{
+
+    color:white;
+    text-transform: capitalize;
+    font-size: 35px;
+    margin:0;
+    cursor: pointer;
+}
+    
+    
